@@ -5,7 +5,8 @@ class ThreewayController extends Controller {
 	public static function index() {
 
 		return View::make('index', array(
-			'header' => View::make('header')
+			'header' => View::make('header'),
+			'footer' => View::make('footer')
 		));
 
 	}
