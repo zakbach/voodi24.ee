@@ -114,6 +114,11 @@ body {
 	line-height: 1.5;
 	color: #666;
 	background: url(../images/bg.png) #fff;
+	padding-top: 50px;
+}
+
+.clear {
+	clear: both;
 }
 
 body:before {
@@ -146,7 +151,7 @@ Logo
 	opacity: .75;
 	margin-left: auto;
 	margin-right: auto;
-	top: 50px;
+	margin-bottom: 75px;
 }
 
 /*
@@ -158,6 +163,17 @@ Steps
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
+}
+
+.step-nr {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	background: rgba(0,0,0,.9);
+	border-radius: 100%;
 }
 
 /*

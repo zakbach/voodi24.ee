@@ -7,6 +7,8 @@
 </head>
 <body>
 
-
 	<div class="logo">
 	</div>
+
+	<div class="clear"></div>
+	
